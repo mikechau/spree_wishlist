@@ -1,5 +1,5 @@
-class Spree::WishlistsController < Spree::BaseController
-  helper 'spree/products'
+class Spree::WishlistsController < Spree::StoreController
+  #helper 'spree/products'
 
   respond_to :html
   respond_to :js, :only => [:update]

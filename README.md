@@ -12,7 +12,7 @@ of a recommended product.
 1. Add the following to your Gemfile
 
 <pre>
-    gem 'spree_wishlist', :git => 'git://github.com/spree/spree_wishlist.git'
+    gem 'spree_wishlist', :git => 'git://github.com/mikechau/spree_wishlist.git'
     gem 'spree_email_to_friend', :git => 'git://github.com/spree/spree_email_to_friend.git'
 </pre>
 
@@ -20,12 +20,3 @@ of a recommended product.
 
 3. To setup the asset pipeline includes and copy migrations run: `rails g spree_wishlist:install`
 
-## Development
-
-  * Fork the repo
-  * clone your repo
-  * Run `bundle`
-  * Run `bundle exec rake test_app` to create the test application in `spec/test_app`.
-  * Make your changes.
-  * Ensure specs pass by running `bundle exec rake`
-  * Submit your pull request
